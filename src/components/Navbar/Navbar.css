@@ -1,10 +1,13 @@
+
 .navbar{
+    width: 100%;
+    overflow: auto;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    background: #CD7F32;
-    position: sticky;
-    top: 0;
+    /* justify-content: right; */
+    /* align-items: center; */
+    background: rgb(31, 88, 31);
+    /* position: sticky; */
+    /* top: 0; */
 }
 .navbar ul{
     display: flex;
@@ -31,3 +34,9 @@
 button:active{
     background-color: #ffbf00;
 }
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }

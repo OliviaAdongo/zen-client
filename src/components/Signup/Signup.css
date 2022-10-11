@@ -1,0 +1,18 @@
+.signup{
+    background: white;
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 10%;
+    border-radius: 10px;
+    justify-content: center;
+}
+.signup form{
+margin-left: 10%;
+padding: 5%;
+
+}
+.signup>form>label, input, button{
+margin-top: 10px;
+}

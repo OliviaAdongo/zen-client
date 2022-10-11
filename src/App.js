@@ -11,8 +11,8 @@ function App() {
   return (
    <Router>
    <Navbar/>
-    <Login/>
-   <Signup/>
+    
+   
     
 
     <Routes>
@@ -20,6 +20,8 @@ function App() {
           <Route path="/mind" element={<Mindfulness/>}/>
           <Route path="/movement" element={<Movement/> }/>
           <Route path="/mantra" element={<Mantra/> }/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/>
     </Routes>
     
    </Router>
