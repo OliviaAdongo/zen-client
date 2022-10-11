@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <div class="container">
+     <nav className="navbar">
     <ul>
     <li>
     <NavLink to ="/">
@@ -43,6 +44,8 @@ function Navbar() {
 
     </ul>
     </nav>
+    </div>
+   
   )
 }
 
