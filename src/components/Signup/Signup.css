@@ -1,18 +1,40 @@
 .signup{
-    background: white;
-    width: 900px;
-    height: 500px;
+    background: pink;
     align-items: center;
-    margin-left: 200px;
-    margin-top: 10%;
-    border-radius: 10px;
     justify-content: center;
+    height: 100vh; 
+    display: flex;
 }
-.signup form{
-margin-left: 10%;
-padding: 5%;
-
+.form{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
 }
-.signup>form>label, input, button{
-margin-top: 10px;
+.form h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.form form{
+    font-size: 15px;
+}
+.form form .form-group{
+    margin-bottom: 30px;
+}
+.form button{
+    font-size: 17px;
+    background: rgb(46, 104, 46);
+    font-weight: bold;
+    color: #000000;
+}
+.form button:hover{
+    background-color: rgb(27, 27, 194);
+    color: white;
+    box-shadow: 0 0 10px orange;
+    border-radius: 10px;
+}
+.form button.active{
+    background-color: orange;
 }
