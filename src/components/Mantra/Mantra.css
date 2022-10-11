@@ -1,0 +1,13 @@
+img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#mind{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}

@@ -5,8 +5,8 @@ function Meditation() {
     <div class='container'>
     
         <div className='meditation'>
-        <p>Meditation</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        <p className='medi'>Meditation</p>
+                    <p className='medi'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                     numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                     optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
@@ -40,7 +40,7 @@ function Meditation() {
                 <img src='https://i.pinimg.com/564x/48/38/7e/48387e7950b1dfd2d9d379dee3f98671.jpg' alt='category 2' class="card-img-top"/>
                 <div class="card-body">
                   <h5 class="card-title">Category 2</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             </div>
@@ -49,14 +49,14 @@ function Meditation() {
                 <img src='https://i.pinimg.com/564x/48/38/7e/48387e7950b1dfd2d9d379dee3f98671.jpg' alt='category 3' class="card-img-top"/>
                 <div class="card-body">
                   <h5 class="card-title">Category 3</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             </div>
     </div>
         </div>
         <div className='learn'>
-        <p>Learn Meditation</p>
+        <p className='medi'>Learn Meditation</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                     numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium

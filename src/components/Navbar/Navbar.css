@@ -2,7 +2,7 @@
 .navbar{
     width: 100%;
     overflow: auto;
-    display: flex;
+    /* display: flex; */
     /* justify-content: right; */
     /* align-items: center; */
     background: rgb(31, 88, 31);
